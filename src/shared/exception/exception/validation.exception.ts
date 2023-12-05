@@ -1,4 +1,4 @@
-import { AbstractException } from "@/shared/exception/abstract.exception";
+import { AbstractException } from "@/shared/exception/exception/abstract/abstract.exception";
 
 export class ValidationException extends AbstractException {
   constructor(errors: any) {
